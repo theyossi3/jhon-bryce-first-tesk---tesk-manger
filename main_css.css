@@ -1,0 +1,165 @@
+body {
+  background-image: url('tile.jpg');
+  background-position: center;
+  background-attachment: fixed;
+}
+
+h1 {
+  left: 43%;
+  font-weight: bold;
+  font-family: cursive;
+  position: absolute;
+  text-shadow: 2px 2px #ff0000;
+}
+
+label {
+  text-size-adjust: 4;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+input,
+button {
+  text-align: center;
+  padding: 4px;
+  width: 25%;
+}
+
+
+label {
+  color: rgb(131, 0, 0);
+
+}
+
+#for_form {
+  padding: 25%;
+  top: 11%;
+  background-image: url("WhatsApp Image 2021-02-11 at 20.28.09.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 10% 35%;
+  background-size: 34% 42%;
+  overflow: hidden;
+}
+
+#new_note {
+  background-image: url(notebg.png);
+  background-size: cover;
+  z-index: 5;
+  width: 25%;
+  height: 250px;
+  overflow: scroll;
+  overflow-x: hidden;
+  float: left;
+  padding-top: 35px;
+
+  -webkit-animation: fadein 2s;
+  /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 2s;
+  /* Firefox < 16 */
+  -ms-animation: fadein 2s;
+  /* Internet Explorer */
+  -o-animation: fadein 2s;
+  /* Opera < 12.1 */
+  animation: fadein 2s;
+}
+
+.new_note {
+  width: 300px;
+  height: 250px;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-image: url(notebg.png);
+  z-index: 3;
+  margin-top: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  float: left;
+  border: 10px solid rgba(0, 0, 0, 0);
+  padding: auto;
+
+}
+
+
+#id_text {
+  margin-top: 10%;
+  position: relative;
+
+  margin-left: 10%;
+  border: 1px solid none;
+  background-color: transparent;
+  height: 100px;
+  width: 50%;
+  border: 1px solid #ccc;
+  font: 16px/26px Georgia, Garamond, Serif;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.new_note button {
+  background-color: transparent;
+  border: none;
+  margin-top: 5%;
+  border: 5% solid rgba(0, 0, 0, 0);
+  display: none;
+}
+
+.new_note:hover button {
+  display: block;
+}
+
+.new_note {
+  animation: fadeIn ease 5s;
+  -webkit-animation: fadeIn ease 5s;
+  -moz-animation: fadeIn ease 5s;
+  -o-animation: fadeIn ease 5s;
+  -ms-animation: fadeIn ease 5s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
